@@ -50,21 +50,21 @@ fs.readdir("./events/", (err, f) => {
 })
 
 mongoose.connect(PrivateConfig.mongoDB, {
-	useNewUrlParser: true,
-	useUnifiedTopology: true
+    useNewUrlParser: true,
+    useUnifiedTopology: true
 }).then(() => {
-	console.log("[+] Connexion établie avec la base de données MongoDB")
-	client.login(PrivateConfig.token)
+    console.log("[+] Connexion établie avec la base de données MongoDB")
+    client.login(PrivateConfig.token)
 }).catch((err) => {
-	console.log("[+] Impossible de se connecter à la base de données MongoDB. Erreur: "+err)
+    console.log("[+] Impossible de se connecter à la base de données MongoDB. Erreur: " + err)
 })
 
 
 client.on("disconnect", () => console.log("[+] Le bot se déconnecte ..."))
-	.on("reconnecting", () => console.log("[+] Reconnexion du bot ..."))
-	.on("error", (e) => console.log("ERROR: ", e))
-	.on("warn", (i) => console.log("WARN: ", i))
+    .on("reconnecting", () => console.log("[+] Reconnexion du bot ..."))
+    .on("error", (e) => console.log("ERROR: ", e))
+    .on("warn", (i) => console.log("WARN: ", i))
 
 process.on("unhandledRejection", (err) => {
-	console.error(err)
+    console.error(err)
 })

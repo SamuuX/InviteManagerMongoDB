@@ -1,5 +1,7 @@
 {
     "prefix": "!",
+    "token": "Njc4OTgxMDMzMDQ3MDk3MzU1.GxKjjn.QDCZbvaLkJPxIP_A2gnMuX5TqL1afH5bkzrbWQ",
+    "mongodb": "mongodb+srv://SamuelXD:XitzUUGiddd2SCDR@cluster0.g1hdm.mongodb.net/InviteManager?authSource=admin&replicaSet=atlas-pdvf1m-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true",
     "enable_debug": true,
     "default": {
         "fake": 7,
