@@ -4,7 +4,7 @@
   "main": "main.js",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "mongoose": "^5.12.11"
+    "mongoose": "^6.8.2"
   },
   "repository": {
     "type": "git",
