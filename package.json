@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "main.js",
   "dependencies": {
-    "discord.js": "^12.5.3",
+    "discord.js": "^14.7.1",
     "mongoose": "^5.12.11"
   },
   "repository": {
